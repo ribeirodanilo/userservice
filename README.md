@@ -1,13 +1,10 @@
-# userservice
-Security Service Application Demo
+# Conceitos:
+- Authentication: Verifies you are who you say you are
+- Authorization: Decides if you have permissiion to access a resource
 
-Conceitos:
-	Authentication: Verifies you are who you say you are
-	Authorization: Decides if you have permissiion to access a resource
-
-Passos:
+# Passos:
 	1. Montar o projeto com as seguintes dependencias:
-		a. <artifactId>spring-boot-starter-data-jpa</artifactId>
+		<artifactId>spring-boot-starter-data-jpa</artifactId>
 		<artifactId>spring-boot-starter-security</artifactId>
 		<artifactId>spring-boot-starter-web</artifactId>
 		<artifactId>spring-boot-devtools</artifactId>
@@ -54,4 +51,4 @@ Passos:
 			i. doFilterInternal
 	11. Configurar a classe SecurityConfig com as regras de segurança por enpoint do controller, 
 		a. Adicioanar os Filtros de Authenticacao e Autorizacao
-    b. A ordem importa.!
+		b. A ordem importa
